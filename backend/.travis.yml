@@ -1,0 +1,6 @@
+language: java
+after_success:
+  - bash <(curl -s https://codecov.io/bash)
+
+  - name: Codecov Node
+    uses: iansu/codecov-action-node@v1.0.0

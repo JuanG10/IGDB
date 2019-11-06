@@ -35,10 +35,10 @@ public class TestFacade {
     }
 
 
-   // @After
-    //public void clear(){
-    //    dataService.eliminarDatos();
-   // }
+    @After
+    public void clear(){
+        dataService.eliminarDatos();
+    }
 
 
 
